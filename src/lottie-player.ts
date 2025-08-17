@@ -207,6 +207,20 @@ const _initModule = async (engine: Renderer) => {
   }
 }
 
+/**
+ * LottiePlayer is a web component for playing Lottie animations with ThorVG engine.
+ * It provides comprehensive control over animation playback, rendering, and interaction.
+ * 
+ * @example
+ * ```html
+ * <lottie-player 
+ *   src="animation.json" 
+ *   autoplay 
+ *   loop>
+ * </lottie-player>
+ * ```
+ *
+ */
 @customElement('lottie-player')
 export class LottiePlayer extends LitElement {
   /**
